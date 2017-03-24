@@ -1,0 +1,10 @@
+.\flash\blinky.o: src\Blinky.c
+.\flash\blinky.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\blinky.o: .\include\LPC17xx.H
+.\flash\blinky.o: .\include\core_cm3.h
+.\flash\blinky.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\blinky.o: .\include\core_cmInstr.h
+.\flash\blinky.o: .\include\core_cmFunc.h
+.\flash\blinky.o: .\include\system_LPC17xx.h
+.\flash\blinky.o: .\include\Serial.h
+.\flash\blinky.o: .\include\LED1.h

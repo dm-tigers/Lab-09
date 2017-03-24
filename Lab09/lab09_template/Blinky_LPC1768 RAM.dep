@@ -1,0 +1,6 @@
+Dependencies for Project 'Blinky', Target 'LPC1768 RAM': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x4A033A36)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx--pd "NO_CRP SETA 1" --list .\ram\startup_lpc17xx.lst --xref -o .\ram\startup_lpc17xx.o --depend .\ram\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x4A9FD2D0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\ram\system_lpc17xx.o --omf_browse .\ram\system_lpc17xx.crf --depend .\ram\system_lpc17xx.d)
+F (.\core_cm3.c)(0x4A033A36)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\ram\core_cm3.o --omf_browse .\ram\core_cm3.crf --depend .\ram\core_cm3.d)
+F (.\Blinky.c)(0x503E7080)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\ram\blinky.o --omf_browse .\ram\blinky.crf --depend .\ram\blinky.d)
+F (.\Abstract.txt)(0x503F80D1)()
