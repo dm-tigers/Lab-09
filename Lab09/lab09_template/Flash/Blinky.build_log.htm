@@ -26,11 +26,16 @@ Project File Date:  03/24/2017
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'LPC1768 Flash'
+Rebuild target 'LPC1768 Flash'
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling core_cm3.c...
 compiling Blinky.c...
-src\Blinky.c(98): error:  #20: identifier "UARTO" is undefined
-    NVIC_EnableIRQ(UARTO);
+src\Blinky.c(55): error:  #20: identifier "UARTO" is undefined
+                NVIC_EnableIRQ(UARTO);
 src\Blinky.c: 0 warnings, 1 error
+compiling led1_ctrl.c...
+compiling Serial.c...
 ".\Flash\Blinky.axf" - 1 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
