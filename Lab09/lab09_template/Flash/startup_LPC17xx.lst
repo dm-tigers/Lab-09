@@ -332,16 +332,16 @@ ARM Macro Assembler    Page 7
               00000000 
               00000000 
 Command Line: --debug --xref --length=49 --width=120 --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interwork --depend=.\fl
-ash\startup_lpc17xx.d -o.\flash\startup_lpc17xx.o -I"E:\IPFW\ECE 362\Labs\Lab09\lab09_template\RTE" -IC:\Keil_v5\ARM\PAC
-K\ARM\CMSIS\4.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --predefine="__MICROLIB SETA
+ash\startup_lpc17xx.d -o.\flash\startup_lpc17xx.o -IC:\Users\tdag3704\Desktop\Lab09\lab09_template\RTE -IC:\Keil_v5\ARM\
+PACK\ARM\CMSIS\4.3.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.2.0\Device\Include --predefine="__MICROLIB S
 
 
 
 ARM Macro Assembler    Page 8 
 
 
- 1" --predefine="__UVISION_VERSION SETA 515" --predefine="_RTE_ SETA 1" --predefine="LPC175x_6x SETA 1" --list=.\flash\s
-tartup_lpc17xx.lst startup_100mhz\startup_LPC17xx.s
+ETA 1" --predefine="__UVISION_VERSION SETA 515" --predefine="_RTE_ SETA 1" --predefine="LPC175x_6x SETA 1" --list=.\flas
+h\startup_lpc17xx.lst startup_100mhz\startup_LPC17xx.s
 
 
 
