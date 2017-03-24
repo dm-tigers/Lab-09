@@ -1,0 +1,38 @@
+Dependencies for Project 'Blinky', Target 'Simulator': (DO NOT MODIFY !)
+F (.\startup_100mhz\system_LPC17xx.c)(0x58D566CF)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\include-IC:\Users\timda\Desktop\Lab09\lab09_template\RTE\_Simulator-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\flash\system_lpc17xx.o --omf_browse .\flash\system_lpc17xx.crf --depend .\flash\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (.\include\LPC17xx.h)(0x58D566CF)
+I (.\include\core_cm3.h)(0x58D566CF)
+I (.\include\core_cmInstr.h)(0x58D566CF)
+I (.\include\core_cmFunc.h)(0x58D566CF)
+I (.\include\system_LPC17xx.h)(0x58D566CF)
+F (.\startup_100mhz\startup_LPC17xx.s)(0x58D566CF)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\timda\Desktop\Lab09\lab09_template\RTE\_Simulator-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\flash\startup_lpc17xx.lst --xref -o .\flash\startup_lpc17xx.o --depend .\flash\startup_lpc17xx.d)
+F (.\src\core_cm3.c)(0x58D566CF)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\include-IC:\Users\timda\Desktop\Lab09\lab09_template\RTE\_Simulator-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+F (.\src\Blinky.c)(0x58D566CF)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\include-IC:\Users\timda\Desktop\Lab09\lab09_template\RTE\_Simulator-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F6BD88)
+I (.\include\LPC17xx.H)(0x58D566CF)
+I (.\include\core_cm3.h)(0x58D566CF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (.\include\core_cmInstr.h)(0x58D566CF)
+I (.\include\core_cmFunc.h)(0x58D566CF)
+I (.\include\system_LPC17xx.h)(0x58D566CF)
+I (.\include\Serial.h)(0x58D566CF)
+I (.\include\LED1.h)(0x58D566CF)
+F (.\src\led1_ctrl.c)(0x58D566CF)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\include-IC:\Users\timda\Desktop\Lab09\lab09_template\RTE\_Simulator-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\flash\led1_ctrl.o --omf_browse .\flash\led1_ctrl.crf --depend .\flash\led1_ctrl.d)
+I (.\include\LPC17xx.H)(0x58D566CF)
+I (.\include\core_cm3.h)(0x58D566CF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (.\include\core_cmInstr.h)(0x58D566CF)
+I (.\include\core_cmFunc.h)(0x58D566CF)
+I (.\include\system_LPC17xx.h)(0x58D566CF)
+I (.\include\LED1.h)(0x58D566CF)
+F (.\Serial.c)(0x58D566CD)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\include-IC:\Users\timda\Desktop\Lab09\lab09_template\RTE\_Simulator-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.3.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DLPC175x_6x-o .\flash\serial.o --omf_browse .\flash\serial.crf --depend .\flash\serial.d)
+I (.\include\lpc17xx.h)(0x58D566CF)
+I (.\include\core_cm3.h)(0x58D566CF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F6BD88)
+I (.\include\core_cmInstr.h)(0x58D566CF)
+I (.\include\core_cmFunc.h)(0x58D566CF)
+I (.\include\system_LPC17xx.h)(0x58D566CF)
+I (.\include\Serial.h)(0x58D566CF)
+F (.\Abstract.txt)(0x58D566CD)()
