@@ -63,7 +63,7 @@ int main (void) {
   SER_Init();                                /* UART Initialization           */
 
 	
-	SysTick_Init(SystemCoreClock / 100); 
+	//SysTick_Init(SystemCoreClock / 100); 
 
 	// For Part A & B of lab program system tick with interrupt enabled and 10 ms period. 
 	
@@ -93,7 +93,7 @@ int main (void) {
 	//}
 	// For Part C instead use CMSIS Core System Tick function to initialize it with 10 ms with interrupt enabled 
 	
-	
+	SysTick_Config(SystemCoreClock / 100);
 	while (1) {}                                /* Loop forever                  */
 	
 	
