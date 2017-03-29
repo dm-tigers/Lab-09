@@ -17,6 +17,8 @@ void SysTick_Handler (void) {
   static uint32_t ticks = 0;
 
 	ticks++;
+	//100 * 10ms = 1 second
+	//count number of ticks for polling
 	if(ticks == 100)
 	{
 		clock_1s = 1;
@@ -24,6 +26,7 @@ void SysTick_Handler (void) {
 	}
 	
 	// Part B
+	//run on interrupt
 	if(ticks >= SystemCoreClock/100)
 	{
 		clock_1s = 1;
@@ -46,10 +49,10 @@ void SysTick_Handler (void) {
 }
 
 void SysTick_Init(uint32_t ticks) {
-		// Refer Slide 13 & 14 of ece362_lpc1768.ppt
-		SysTick->LOAD = ticks & 0xFFFFFF -1;									 //1. set reload register 
-		NVIC_SetPriority(SysTick_IRQn, 1);											//2. set Priority for Systick Interrupt
-		SysTick -> VAL = 	0;																//3. Load the SysTick Counter Value 
+	// Refer Slide 13 & 14 of ece362_lpc1768.ppt
+	SysTick->LOAD = ticks & 0xFFFFFF -1;									 //1. set reload register 
+	NVIC_SetPriority(SysTick_IRQn, 1);											//2. set Priority for Systick Interrupt
+	SysTick -> VAL = 	0;																//3. Load the SysTick Counter Value 
   	SysTick->CTRL = 0x07;																		// 4. Enable SysTick IRQ and SysTick Timer 
 		
 	return;
@@ -59,8 +62,8 @@ void SysTick_Init(uint32_t ticks) {
  *----------------------------------------------------------------------------*/
 int main (void) {
   
-  LED1_Init();                                /* LED Initialization            */
-  SER_Init();                                /* UART Initialization           */
+	LED1_Init();                                /* LED Initialization            */
+	SER_Init();                                /* UART Initialization           */
 
 	
 	//SysTick_Init(SystemCoreClock / 100); 
@@ -70,16 +73,14 @@ int main (void) {
 	// Part A
 	
 	/*while (1) {                                        
-		if(clock_1s) 
-		  {
-				clock_1s = 0;
-				if (led_status == 0)
-				{
+		//toggle the LED every one second
+		if(clock_1s) {
+			clock_1s = 0;
+				if (led_status == 0){
 					LED1_On();
 					led_status = 1;
 				}
-				else if (led_status == 1)
-				{
+				else if (led_status == 1){
 					LED1_Off();
 					led_status = 0;
 				}
@@ -93,7 +94,7 @@ int main (void) {
 	//}
 	// For Part C instead use CMSIS Core System Tick function to initialize it with 10 ms with interrupt enabled 
 	
-	SysTick_Config(SystemCoreClock / 100);
+	SysTick_Config(SystemCoreClock / 100); //part of CMSIS library
 	while (1) {}                                /* Loop forever                  */
 	
 	
